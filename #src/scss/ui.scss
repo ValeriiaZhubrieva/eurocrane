@@ -1,5 +1,26 @@
 //<ОСНОВНОЙ БЛОК>====================================================================================================
+.btn {
+	background-color: $yellowColor;
+	cursor: pointer;
+	font-family: 'PT Sans', sans-serif;
+	color:#fff;
+	line-height: 140%;
+	font-size: 18px;
+	padding: 12px 45px;
+	transition: background-color 0.3s ease 0s;
+	@media (any-hover: hover) {
+		&:hover {
+			background-color: $orangeColor;
+			color:#fff;
+		}
+	}
+}
 
+.btn-transparent {
+	background-color: transparent;
+	color:$mainColor;
+	border:1px solid $yellowColor;
+}
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
 //<ГОТОВЫЕ КЛАССЫ>====================================================================================================
